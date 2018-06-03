@@ -1,0 +1,52 @@
+main: me.bladian.uhc.Core
+name: UHCV3
+version: 3.3.1
+commands:
+  mod:
+  host:
+  whitelist:
+    aliases: [wl]
+  dWhitelist:
+    aliases: [dwl]
+  clear:
+  heal:
+  health:
+    aliases: [h]
+  start:
+  worldEditor:
+  stats:
+  tele:
+  clearchat:
+  helpop:
+  game:
+  timer:
+  kl:
+  team:
+  bp:
+  respawn:
+  tweetmatch:
+  sc:
+    aliases: [sendcoords]
+  tc:
+  kt:
+  scenarios:
+  scenarioEditor:
+  gameEditor:
+  list:
+  config:
+  maxplayers:
+  kc:
+  healTime:
+  pvpTime:
+  borderTime:
+  rules:
+  rates:
+  borderRadius:
+  tctoggle:
+  giveAll:
+  arenaEditor:
+  xAlerts:
+  arena:
+    aliases: [a, practice]
+
+depend: [WorldBorder]

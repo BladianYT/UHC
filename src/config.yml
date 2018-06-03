@@ -1,0 +1,86 @@
+sql:
+  ip: localhost
+  port: 3306
+  database: shop
+  user: root
+  password:
+
+arena:
+  enabled: true
+  kit: 1
+  locations:
+
+
+#%player% is the player who died
+#%killer% is the person who killed the player
+#%pkills% is the amount of kills
+#%kkills% is the amount of kills by the killer
+
+death-message:
+  enabled: true
+  sword-death: '§a%player%[%pkills%]§d was killed by§c %killer%[%kkills%]'
+  bow-death: '§a%player%[%pkills%]§d was shot down by§c %killer%[%kkills%]'
+  unknown-death: '§a%player%§d was mysteriously killed'
+  combat-logger-death: '§a%player%[CombatSkeleton]§d has died'
+
+rules:
+  - '§b      UHC RULES'
+  - '§f The use of any illegal client/mod, cave/chest finder or x-ray texture pack will result in a permanent ban.'
+  - '§f Using F3+a, F5 under lava, mining to entities or doing anything that gives you an unfair advantage will result in a permanent ban.'
+  - '§f You may relog during the game. You have 10 minutes to get back in.'
+  - '§fHackusating in game chat or in spec chat will lead to a mute.'
+  - '§fNo stripmining or pokeholes below y32. You may mine to sounds and player tags at any level.'
+  - '§fBlastmining and pokeholing are not allowed. They''re equal to a 3 days ban'
+  - '§fYou may mine down without going up first if you’re at the end of a cave or ravine, even if it’s below y32.'
+  - '§fHackusating in game chat or in spec chat will lead to a punishment.'
+  - '§fIf you relog during a heal, you will not receive it.'
+  - '§fDo not stalk/follow §bFamous/Twitch/YouTube ranks§f during grace period. We can TP you away if you do.'
+  - '§fIf you die by a hacker, you can request a respawn only if the player has been punished.'
+  - '§fSkybasing is forbidden in 100x100. It can result in a 1 week ban.'
+  - '§fTo check if shears work, use the configuation.'
+  - '§fNo respawns or heals due to block glitches or lag.'
+  - '§fStealing is allowed, like stalking, but not excessively. It can result in a 3 days ban.'
+  - '§fiPvP during the no-PvP period is not allowed and is bannable.'
+  - '§fIf you relog during the final heal, you will not receive it.'
+  - '§fYou may relog during the game but you only have 10 minutes to get back in.'
+  - '§fRollercoastering (staircasing up and down) is only allowed if you go from y32 to bedrock each time.'
+  - '§fUse §c/scenarios§f to see scenarios and their explanation.'
+  - '§fThe world border will teleport you inside the new border if you are outside it.'
+  - '§fIf you''re in the nether, you will be teleported back to the world at 500x50'
+  - '§fThe nether only has a radius of 500x500'
+  - '§fIf you have some questions, ask it via §c/helpop §fand do not spam it.'
+  - '§fType §c/config §fto see what is enabled and what is not.'
+  - '§fType §c/scenarios §fto learn about the game scenarios.'
+  - '§fLying to the host in-order to get an advantage will result in a 1 day ban.'
+  - '§fIf you have any questions not answered by §c/config, §c/scenarios §for rules, ask in chat.'
+  - '§fHave fun and don’t forget to thank your Host!'
+
+
+
+#Two types of scatter
+#HORSE: The newest one where it spawns you on an invisible horse
+#PLAYER: The default one where it spawns you with potion effects
+scatter: HORSE
+
+#Horizontal Stretch is the width of the cave
+#Vertical Stretch is the height of the cave
+#Cutoff is the frequency of the caves (the lower it is the higher the frequency of the caves)
+#Min is the minimum Y level it should start at
+#Max is the maximum Y level it should start at
+custom-caves:
+  enabled: false
+  horizontal-stretch: 16
+  vertical-stretch: 9
+  cutoff: 55
+  min: 6
+  max: 52
+
+nether-worldborder: 100
+
+#Make it either stop or restart
+end-command: 'restart'
+
+#This is the radius at which a player can spec
+spectator-radius: 100
+
+password:
