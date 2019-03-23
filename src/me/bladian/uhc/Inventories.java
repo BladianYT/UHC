@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Bladian. Before using the code, kindly ask permission to him via the following methods.
+ * Created by Bladian. Before using the code, kindly ask him for permission using the following methods.
  * <p>
  * Twitter: BladianMC
  * Discord: Bladian#6411
